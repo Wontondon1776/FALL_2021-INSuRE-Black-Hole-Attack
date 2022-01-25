@@ -1,0 +1,5 @@
+// Black hole attack simulation: 
+//Specify which vehicle with the index
+if (getParentModule() ->getIndex()== 1) { 
+  return; 
+  }
