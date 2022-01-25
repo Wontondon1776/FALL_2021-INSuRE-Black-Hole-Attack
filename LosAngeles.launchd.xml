@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- LosAngeles.launchd.xml -->
+
+<launch>
+    <copy file="LosAngeles.net.xml" />
+    <copy file="LosAngeles.rou.xml" />
+    <copy file="LosAngeles.poly.xml" />
+    <copy file="LosAngeles.sumo.cfg" type="config" />
+</launch>

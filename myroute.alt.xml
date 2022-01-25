@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-09 09:25:51 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="LosAngeles.net.xml"/>
+        <route-files value="mytrip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="myroute.xml"/>
+        <alternatives-output value="myroute.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="trip-9" depart="0.00" color="magenta">
+        <routeDistribution last="0">
+            <route cost="264.31" probability="1.00000000" edges="-154405460#0 154405460#0 154405460#1 154405619#0 154405619#1 364444503#4 364444503#5 364444503#6 364444503#7 364444503#8 364444503#9 154420370#4 154418933#10 154418933#11 154420470#4 154420470#5 154420470#6 154420470#7 154420470#8 154420470#9 154420470#10 154420470#11 154420470#12 -683275988#9 -683275988#8 -683275988#7 -683275988#6 154418953#0 154418949"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
